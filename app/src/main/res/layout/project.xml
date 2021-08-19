@@ -51,7 +51,7 @@
                     android:layout_height="250dp">
 
                     <ImageView
-                        android:id="@+id/img_ocean"
+                        android:id="@+id/img_ocean1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
@@ -114,7 +114,7 @@
                     android:layout_height="250dp">
 
                     <ImageView
-                        android:id="@+id/img_ocean"
+                        android:id="@+id/img_ocean2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
@@ -177,7 +177,7 @@
                     android:layout_height="250dp">
 
                     <ImageView
-                        android:id="@+id/img_ocean"
+                        android:id="@+id/img_ocean3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"

@@ -7,11 +7,12 @@
         <entry key="app/src/main/res/drawable/radius.xml" value="0.2989583333333333" />
         <entry key="app/src/main/res/drawable/solid.xml" value="0.2989583333333333" />
         <entry key="app/src/main/res/drawable/stroke.xml" value="0.2989583333333333" />
+        <entry key="app/src/main/res/layout/activity_listener.xml" value="0.27487179487179486" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17916666666666667" />
         <entry key="app/src/main/res/layout/frame_layout.xml" value="0.4859375" />
         <entry key="app/src/main/res/layout/image_view.xml" value="0.23632218844984804" />
         <entry key="app/src/main/res/layout/linear_layout.xml" value="0.4859375" />
-        <entry key="app/src/main/res/layout/project.xml" value="0.34498094027954257" />
+        <entry key="app/src/main/res/layout/project.xml" value="0.12465373961218837" />
         <entry key="app/src/main/res/layout/scroll_view.xml" value="0.4859375" />
       </map>
     </option>
