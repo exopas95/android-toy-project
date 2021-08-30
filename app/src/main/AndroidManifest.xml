@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Anroid_Toy_Project">
         <activity
-            android:name=".ActivityListenerBinding"
-            android:exported="true">
+            android:name=".ActivityRecyclerViewBinding"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,9 +19,26 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ListViewActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".AddViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityFragmentBinding"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityIntentTwoBinding"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityIntentBinding"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityListenerBinding"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -1,0 +1,19 @@
+03. Task
+
+켜지는 방법을 자체 속성으로 가지고 있는 경우
+-> launchMode
+
+켜지는 방법을 지시하는 경우
+-> IntentFlag
+
+LaunchMode        다중허용
+-- Standard          O
+-- SingleTop      조건부허용 -> 열려고하는 엑티비티가 현재 엑티비티라면 onNewIntent를 호출한다.
+--------------------
+-- Single Task       X
+-- Single            X
+
+인텐트 플레그
+FLAG_ACTIVITY_NEW_TASK
+FLAG_ACTIVITY_SINGLE_TOP
+FLAG_ACTIVITY_CLEAR_TOP
