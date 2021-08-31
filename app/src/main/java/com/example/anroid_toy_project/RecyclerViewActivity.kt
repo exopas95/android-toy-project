@@ -49,7 +49,7 @@ class RecyclerAdapter(
                 val position: Int = bindingAdapterPosition
                 val engineName = itemList.get(position).engine
                 Log.d("engine", engineName)
-            }   
+            }
         }
     }
 
