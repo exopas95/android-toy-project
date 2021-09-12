@@ -12,7 +12,7 @@ import com.google.android.material.tabs.TabLayoutMediator
 
 class ActivityTabPagerBinding : AppCompatActivity() {
     private lateinit var binding: ActivityTabPagerBinding
-    private lateinit var tabPagerAdapter: PagerAdapter
+    private lateinit var tabPagerAdapter: tabPagerAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +31,7 @@ class ActivityTabPagerBinding : AppCompatActivity() {
 
 }
 
-class PagerAdapter(
+class tabPagerAdapter(
     fragment: Fragment
 ): FragmentStateAdapter(fragment) {
 

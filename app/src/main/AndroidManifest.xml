@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Anroid_Toy_Project">
         <activity
-            android:name=".ActivityTabPagerBinding"
-            android:exported="true">
+            android:name=".ActivitySharedPreferenceBinding"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,8 +19,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityRecyclerViewBinding"
+            android:name=".TabPagerTwoActivity"
             android:exported="true"/>
+        <activity
+            android:name=".ActivityTabPagerBinding"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityRecyclerViewBinding"
+            android:exported="true" />
         <activity
             android:name=".ListViewActivity"
             android:exported="true" />
